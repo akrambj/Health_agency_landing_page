@@ -1,0 +1,802 @@
+:root {
+    --font01: 'Source Serif Pro',
+        serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
+.bg {
+    position: relative;
+}
+
+#bg03 {
+    position: absolute;
+    width: 940px;
+    left: 30.3%;
+}
+
+#bg02 {
+    position: absolute;
+    width: 900px;
+    left: 17%;
+}
+
+#bg01 {
+    position: absolute;
+    width: 940px;
+}
+
+header {
+    width: 100vw;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: fixed;
+    background-color: transparent;
+}
+
+.logo {
+    display: flex;
+    margin: 25px 100px;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+}
+
+.logo h2 {
+    margin-left: 7px;
+    color: white;
+    font-family: var(--font01);
+    font-weight: 400;
+}
+
+.logo span {
+    font-weight: 900;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+}
+
+nav i {
+    opacity: 0;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    color: white;
+    font-family: var(--font01);
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+nav button {
+    width: 150px;
+    height: 40px;
+    border: 2px solid #EAEAEA;
+    border-radius: 20px;
+    background: linear-gradient(to right ,#2ff2dba2 30% , #2F8DFB 70%);
+}
+
+
+nav button a {
+    font-family: var(--font01);
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    word-spacing: 3px;
+}
+
+
+main {
+    position: relative;
+}
+
+.hero {
+    padding-top: 200px;
+    display: flex;
+    gap: 30px
+    ;
+}
+
+
+.hero h2 {
+    width: 430px;
+    color: white;
+    margin-left: 120px;
+    font-size: 2em;
+    font-family: var(--font01);
+}
+
+
+.sub {
+    margin-top: 50px;
+    margin-left:120px ;
+}
+
+.sub input {
+    position: relative;
+    width: 300px;
+    height: 40px;
+    border: 1px solid #2F8DFB;
+    border-radius: 20px;
+    padding-left: 20px;
+    font-family: var(--font01);
+}
+
+
+
+.sub button {
+    position: absolute;
+    right: 880px;
+    width: 100px;
+    height: 40px;
+    border: 2px solid  #2F8DFB;
+    background-color: #2F8DFB;
+    border-radius: 20px;
+}
+
+
+.sub button a {
+    text-decoration: none;
+    font-family: var(--font01);
+    color: white;
+}
+
+
+
+#chat-01 {
+    position: absolute;
+    width: 700px;
+    top: -550px;
+    left: 380px;
+}
+#chat-02 {
+    position: absolute;
+    width: 660px;
+    top: -565px;
+    left: 390px;
+}
+
+
+
+.team {
+    position: relative;
+    margin-top: 450px;
+    display: flex;
+    margin-left: 100px;
+    gap: 140px;
+    align-items: center;
+}
+
+.spclty a img  {
+    padding-left: 40px;
+    width: 140px;
+}
+
+.jobs {
+    margin-right: 4px;
+    margin-top: 30px;
+}
+
+.jobs a {
+    padding-left: 65px;
+    text-decoration: none;
+    color: #1F2343;
+    font-family: var(--font01);
+}
+
+.med-team h1  {
+    font-family: var(--font01);
+    color: black;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.med-team h6 {
+    margin-top: 20px;
+    font-family: var(--font01);
+    text-transform: capitalize;
+    font-size: 0.9em;
+    color: #6F6F89;
+}
+
+
+.med-team h2 {
+    margin-top: 20px;
+    font-family: var(--font01);
+    font-weight: 500;
+    width: 300px;
+    line-height: 40px;
+}
+
+
+.med-team button {
+    position: absolute;
+    top: 140px;
+    left: 300px;
+    width: 120px;
+    height: 35px;
+    border: 1px solid #2F8DFB;
+    border-radius: 20px;
+    background-color: #2F8DFB;
+    background-attachment: fixed;
+}
+
+.med-team button a {
+    text-decoration: none;
+    color: white;
+    font-family: var(--font01);
+}
+
+
+.med-team span {
+    font-size: 1.4em;
+    font-weight: 800;
+    color: #3E98FB;
+
+}
+
+
+.med-team h4 {
+    margin-top: 30px;
+    font-family: var(--font01);
+    color: #1B1F40;
+    width: 300px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+#shape01 {
+    position: absolute;
+    top: 400px;
+    width: 1300px;
+    left: -100px;
+}
+
+
+#shape02 {
+    position: absolute;
+    top: 400px;
+    width: 350px;
+    left: 72%;
+}
+
+.c-p {
+    position: absolute;
+    margin: 100px 240px; 
+    display: flex;
+    align-items: center;
+    gap: 350px;
+}
+
+.contry {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contry h3  {
+    font-family: var(--font01);
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.contry span {
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+.prices {
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 500px;
+    border: 2px solid white;
+    border-radius: 30px;
+    border-bottom-right-radius: 200px;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.prices h3 {
+    margin-left: 30px;
+    margin-top: 50px;
+    font-family: var(--font01);
+    text-transform: capitalize;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.prices h4 {
+    margin-left: 30px;
+    margin-top: 40px;
+    font-family: var(--font01);
+    font-size: 0.9em;
+    color: #1BB6E5;
+}
+
+.prices h2 {
+    margin-left: 30px;
+    margin-top: 30px;
+    font-family: var(--font01);
+}
+
+
+.price {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.price h5 {
+    font-family: var(--font01);
+    text-transform: capitalize;
+    width: 220px;
+    line-height: 20px;
+}
+
+.price h1 {
+    font-family: var(--font01);
+    font-size: 3em;
+    text-transform: lowercase;
+    color: #1462F9;
+}
+
+.job2 {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.job2 a {
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-family: var(--font01);
+    padding-left: 20px;
+}
+
+
+.price02 {
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.price02 a {
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-family: var(--font01);
+    font-size: 1.2em;
+    padding-left: 60px;
+}
+
+
+.prices button {
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 140px;
+    height: 40px;
+    border: 2px solid white;
+    background-color: #2BA3F4;
+    border-radius: 20px;
+}
+
+
+.prices button a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-family: var(--font01);
+}
+
+.cards {
+    width: 80%;
+    margin: 900px 20%;
+}
+
+.txt h2  {
+    font-family: var(--font01);
+    color: #1F2343;
+    font-size: 2em;
+    width: 300px;
+    line-height: 35px;
+}
+
+.txt h6 {
+    margin-top: 20px;
+    font-family: var(--font01);
+    color: #585B71;
+    font-size: 0.7em;
+    width: 256px;
+    word-spacing: 3px;
+    line-height: 15px;
+}
+
+.txt button {
+    margin: 30px ;
+    width: 130px ;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #2BA3F4;
+    border: 2px solid #2BA3F4 ;
+}
+
+.txt button a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: var(--font01);
+}
+
+.cards {
+    display: flex;
+    gap: 250px;
+    align-items: center;
+}
+
+.cards-01 {
+    display: flex;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+
+
+.card-01 {
+    width: 150px;
+    height: 80px;
+    background-color: #FFEDDD;
+    border: 1px solid #FFEDDD;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.card-01 h4 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: var(--font01);
+    font-size: 0.8em;
+}
+
+.card-01 {
+    width: 200px;
+    height: 80px;
+    background-color: #FFEDDD;
+    border: 1px solid #FFEDDD;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 50px;
+}
+
+.card-01 h4 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: var(--font01);
+    font-size: 0.8em;
+}
+
+.card-02 {
+    margin-left: 5px;
+    width: 170px;
+    height: 130px;
+    background-color: #DCE2FF;
+    border: 1px solid #DCE2FF;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.card-02 h4 {
+    text-align: center;
+    margin-top: 60px;
+    font-family: var(--font01);
+    font-size: 0.8em;
+}
+
+
+.card-03 {
+    margin-top: 5px;
+    width: 200px;
+    height: 140px;
+    background-color: #F0DDFF;
+    border: 1px solid #F0DDFF;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.card-03 h4 {
+    text-align: center;
+    margin-top: 60px;
+    font-family: var(--font01);
+    font-size: 0.8em;
+}
+
+.card-04 {
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 170px;
+    height: 85px;
+    background-color: #E5F9FF;
+    border: 1px solid #E5F9FF;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.card-04 h4 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: var(--font01);
+    font-size: 0.7em;
+    width: 100px;
+    margin-left: 35px;
+}
+
+.you {
+    position: relative;
+    margin-top: -800px;
+    margin-left: 200px;
+    display: flex;
+    gap: 110px;
+    align-items: center;
+}
+
+.dtl img  {
+    width: 500px;
+}
+
+.dtls h1 {
+    font-family:var(--font01) ;
+    font-size: 2em;
+}
+
+
+#one {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #1F2343;
+    opacity: 0.7;
+}
+
+#two {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #1F2343;
+    opacity: 0.7;
+}
+
+#three {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #1F2343;
+    opacity: 0.7;
+    width: 300px;
+}
+
+#four {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #1F2343;
+    opacity: 0.7;
+    width: 300px;
+}
+
+
+#shape-01 {
+    position: absolute;
+    top: 130px;
+    right: 150px;
+    width: 60px;
+}
+
+#shape-02 {
+    position: absolute;
+    top: 350px;
+    right: 220px;
+    width: 45px;
+}
+
+#shape-03 {
+    position: absolute;
+    top: 390px;
+    right: 590px;
+    width: 60px;
+}
+
+#shape-04 {
+    position: absolute;
+    top: 50px;
+    right: 400px;
+    width: 30px;
+}
+
+
+
+#shape02-01 {
+    position: absolute;
+    top: 350px;
+    right: 20px;
+    width: 20px;
+}
+
+#shape02-02 {
+    position: absolute;
+    top: 390px;
+    right: 40px;
+    width: 20px;
+}
+#shape02-03 {
+    position: absolute;
+    top: 420px;
+    right: 60px;
+    width: 20px;
+}
+#shape02-04 {
+    position: absolute;
+    top: 340px;
+    right: 60px;
+    width: 20px;
+}
+
+
+.docs {
+    margin-top: 70px;
+}
+
+
+.head h1 {
+    text-align: center;
+    font-family: var(--font01);
+    font-size: 2.4em;
+}
+
+
+.doctors {
+    position: relative;
+    background: transparent;
+}
+
+.docs {
+    position: relative;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 70%;
+    margin: 50px auto;
+    flex-wrap: wrap;
+}
+
+.doc {
+    position: relative;
+    width: 220px;
+    margin: 20px auto;
+}
+
+.doc img {
+    width: 130px;
+    margin-left: 20px;
+}
+
+
+.doc h3 {
+    color: #fff;
+    font-size: 1em;
+    text-align: center;
+    font-family: var(--font01);
+    margin-top: 10px;
+    margin-left: -35px;
+}
+
+
+.doc h4 {
+    margin-top: 5px;
+    margin-left: -28px;
+    opacity: 0.7;
+    color: #fff;
+    font-size: 0.7em;
+    margin-top: 10px;
+    text-align: center;
+    font-family: var(--font01);
+}
+
+
+
+.doc a img {
+    width: 80px;
+    margin-top:12px;
+    margin-left: 55px;
+}
+
+
+
+footer {
+    position: relative;
+    background:transparent;
+    min-height: 150px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+
+#txto  {
+    margin-left: 160px;
+    display: flex;
+    gap: 20px;
+}
+
+.nav h4 {
+    color: #fff;
+    font-family: var(--font01);
+    margin-left: 20px;
+}
+
+.nav a img {
+    margin-left: 150px;
+    width: 100px;
+}
+
+#AI {
+    margin-left: 105px;
+    color: #CDEAEA;
+    font-family: var(--font01);
+}
+
+.copy-w {
+    margin: 20px 105px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: var(--font01);
+    color: white;
+    opacity: 0.7;
+}
+
+
+.txt02 {
+    margin-right: 70px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#background01 {
+    position: absolute;
+    height: 870px;
+    width: 1347px;
+    top: 2910px;
+    left: 0;
+}
+
+#background02 {
+    position: absolute;
+    top: 2920px ;
+    width: 1344.5px;
+    height: 860px;
+}
